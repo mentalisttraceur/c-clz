@@ -16,23 +16,23 @@ a count leading zeroes instruction and look at the assembly code!
 
 The `clz.h` header provides:
 
-1. The functions
+1. The `static` functions
 
-    * `static int count_leading_zeroes(unsigned int)`
-    * `static int count_trailing_zeroes(unsigned int)`
-    * `static int find_first_set(unsigned int)`
-    * `static int find_last_set(unsigned int)`
-    * `static int count_leading_zeroes_l(unsigned long)`
-    * `static int count_trailing_zeroes_l(unsigned long)`
-    * `static int find_first_set_l(unsigned long)`
-    * `static int find_last_set_l(unsigned long)`
-    * `static int count_leading_zeroes_ll(unsigned long long)`
+    * `int count_leading_zeroes(unsigned int)`
+    * `int count_trailing_zeroes(unsigned int)`
+    * `int find_first_set(unsigned int)`
+    * `int find_last_set(unsigned int)`
+    * `int count_leading_zeroes_l(unsigned long)`
+    * `int count_trailing_zeroes_l(unsigned long)`
+    * `int find_first_set_l(unsigned long)`
+    * `int find_last_set_l(unsigned long)`
+    * `int count_leading_zeroes_ll(unsigned long long)`
       (if compiling as C99 or higher)
-    * `static int count_trailing_zeroes_ll(unsigned long long)`
+    * `int count_trailing_zeroes_ll(unsigned long long)`
       (if compiling as C99 or higher)
-    * `static int find_first_set_ll(unsigned long long)`
+    * `int find_first_set_ll(unsigned long long)`
       (if compiling as C99 or higher)
-    * `static int find_last_set_ll(unsigned long long)`
+    * `int find_last_set_ll(unsigned long long)`
       (if compiling as C99 or higher)
 
     (which of course work on the corresponding signed integer types).
